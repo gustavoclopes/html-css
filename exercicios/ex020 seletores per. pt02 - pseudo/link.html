@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        # => id
+        . => class
+        : => Pseudo Classes: Estados de elementos
+        :: => Pseudo Elemento: Conteúdo periférico do elemento
+        > => children (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none; /*remover o sublinhado do link*/
+            font-weight: bold;
+        }
+        a:visited{ /*quando o link é (ou já foi)visitado*/
+            color: blue;
+        }
+        a:hover{ /*mouse passar por cima*/
+            color: greenyellow;
+            text-decoration: underline; /*aparecer o sublinhado no link, quando passar o mouse por cima*/
+        }
+        a:active{ /*quando o link é clicado(pressionado)*/
+            color: yellow;
+        }
+        a::after{ /*after: depois do link*/
+            content: ' [link]'; /*conteúdo*/
+            text-decoration: none;
+            font-weight: normal;
+            color: lightblue;
+        }
+        a::before{ /*before: antes do link*/
+            content: url(imagens/imagem-link.png);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo " target="_blank" rel="external">Canal do YouTube</a></li>
+        <li><a href="https://cursoemvideo.com" target="_blank" rel="external">Site do Curso em Vídeo</a></li>
+        <li><a href="https://teste/de/link.com.br" target="_blank" rel="external">Teste de link não visitado</a></li>
+        <br>
+        <li><p><a href="pseudoclasse.html" target="_self" rel="prev">Voltar para a página anterior Pseudo Classes</a></p></li>
+    </ul>
+</body>
+</html>

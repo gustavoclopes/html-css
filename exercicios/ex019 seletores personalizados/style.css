@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id, em CSS é #
+    Em HTML é class, em CSS é .
+*/
+
+body{
+    /*
+    Paleta de cor: Sombras
+    color: #9A5DBA;
+    color: #653D7A;
+    color: #CF7EFA;
+    color: #301D3B;
+    color: #B970E0;
+    ---
+    Pode usar somente um único id em um arquivo HTML
+    id = único
+    class = múltiplo
+    */
+    background-color: #9A5DBA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+h1{
+    color: #301D3B;
+}
+#principal{
+    color: #9A5DBA;
+    text-align: center;
+    background-color: #301D3B;
+}
+h2{
+    color: #653D7A;
+}
+.basico{
+    color: #3d7a42;
+}
+.intermediario{
+    color: #7a6f3d;
+}
+.avancado{
+    color: #7a3d3d;
+}
+.destaque{
+    background-color: #B970E0;
+}

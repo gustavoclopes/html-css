@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+
+            /*Medidas Absolutas
+            cm, mm, in(pol), px, (pt, pc)=>(não utilizar em tela) 
+
+            Medidas Relativas
+            em(relativo ao M maiúsculo)
+            ex(Tamanho da altura X(altura das letras minúsculas))
+            rem(relativo a (root) fonte que está no body)
+            vw(largura da vew port (%))
+            vh(altura da vew port (%))
+            %
+
+            Recomenda-se utilizar: em 
+            Recomenda-se utilizar no font-size: em e px
+
+            16px geralmente é = 1em
+            */
+            /*
+            font-size: 1em;
+            font-weight: bold; /*negrito
+            font-style: italic; /*italico
+            text-decoration: underline; /*sublinhado
+            */
+        }
+        h1{
+            /*
+            font-family: Arial;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /*
+            shorthand font (mãosinha)
+            font: font-style => font-weight => font-size => font-family 
+            */
+            font: italic bolder 3em 'Arial';
+        }
+        p{
+            text-align: justify;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p><a href="fonte02.html" target="_self" rel="next">Acessar página sobre Alinhamento (<abbr title="fonte02.html">fonte02</abbr>)</a></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vel esse! Recusandae eligendi mollitia amet corporis cupiditate quasi corrupti non. Alias voluptatibus sapiente illo reprehenderit quaerat quasi minima quam id? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae necessitatibus tempora veniam illo facilis totam voluptas delectus? Ullam dolorum quod dolorem voluptatem ut, distinctio sed odio ea inventore, quisquam nesciunt!
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dolorem tempora cumque officia voluptate consequuntur quam. Debitis nostrum ipsa repudiandae nesciunt ex deleniti recusandae, nobis in odit magnam minima aut.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fugit, neque consequuntur impedit commodi id aspernatur amet sint exercitationem, voluptatibus ullam possimus saepe maxime! Distinctio eligendi dolore reiciendis illo fugiat?</p>
+</body>
+</html>

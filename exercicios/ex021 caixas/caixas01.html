@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+</head>
+<style>
+    body{
+        margin: 8px;
+    }
+    h1{ /*box-level*/
+        background-color: rgb(175, 174, 174);
+        height: 300px; /*Raigth - altura*/
+        width: 300px; /*Wedf - largura*/
+        
+        /*border-width: largura da borda*/
+        /*border: width style color*/
+        border: 15px solid grey;
+
+        /*padding: acolchoamento*/
+        /*pandding: top rigth bottom left*/
+        /*pandding: (2 valores) top bottom ou rigth left*/
+        padding: 10px;
+
+        /*margin: margem*/
+        /*pandding: top rigth bottom left*/
+        margin: 10px auto 30px auto; /*largura centralizada*/
+
+        /*outline: fica entre a borda e a margem*/
+        /*outline: width style color*/
+        outline: 5px dotted #e169ff;
+    }
+    a{ /*line-level*/
+        background-color: honeydew;
+        border-width: 10px;
+        border-style: dotted;
+        border-color: grey;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+</style>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Parágrafos tmb são exemplos de box-level, mas os <a href="#">links são exemplos de colunas inline-level</a>. Vamos ver como tudo isso funciona</p><br>
+    <p><a href="caixas02.html" target="_self" rel="next">Acessar página Caixas02 - Groupng Tags</a></p>
+    <p><a href="caixa03.html" target="_self" rel="next">Acessar página Caixa03 - Borda personalizada</a></p>
+</body>
+</html>

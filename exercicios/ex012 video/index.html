@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/video-favicon.png" type="image/x-icon">
+    <title>Mídia - Vídeos</title>
+</head>
+<body>
+    <h1>Imprimindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <!--OBS.: Utilizar todos os tipos de vídeo, para que seja aberto em todos os navegadores.
+    Exemplo de tipos de vídeos: mp4, ogv, webm, mkv, m4v-->
+    
+    <!--
+
+    <video src="midia/cafe-frio.mp4" width="300" controls></video>
+
+    -->
+
+    <!--Abaixo utilizei outros formatos de vídeos somente para praticar a aula. (Teria que fazer as devidas transformações nos arquivos antes).-->
+    
+    <video width="300" poster="imagem/thumb.png" controls autoplay loop>
+        <source src="midia/cafe-frio.mp4" type="video/mp4">
+        <source src="midia/cafe-frio.mp4" type="video/mp4">
+        <source src="midia/cafe-frio.m4v" type="video/m4v">
+        <source src="midia/cafe-frio.webm" type="video/webm">
+        <source src="midia/cafe-frio.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tCRbVEGHZlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

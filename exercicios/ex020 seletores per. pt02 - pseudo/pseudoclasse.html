@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /*
+        # -> id
+        . -> class
+        : -> pseudo classe (relacionadas a um elemento ou a uma classe)(estado de um teterminado elemento)
+        */
+        div{
+            display: inline-block; /*na mesma linha*/
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px; /*altura*/
+            width: 200px; /*largura*/
+        }
+        div#teste01:hover{
+            /*hover = quando passar por cima(Ex.: mouse passar por cima, irá executar)*/
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="teste01">01</div>
+    <div id="teste02">02</div>
+    <div id="teste03">03</div>
+    <a href="hover.html" target="_self" rel="next"><p>Ir para a página Hover</p></a>
+    <a href="link.html" target="_self" rel="next"><p>Ir para a página Links</p></a>
+</body>
+</html>
