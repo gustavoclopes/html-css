@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0C5DF8, #00D1F0);
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: #e4ecfc;
+    box-shadow: 0px 5px 8px #083ea3ab;
+}
+.logo01{
+    padding: 10px 0px 10px 30px;
+}
+.logo02{
+    padding: 10px;
+}
+h1{
+    color: #0B87D9;
+    text-shadow: -1px 2px 2px #074670e7;
+    margin: auto;
+    text-align: center;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+nav{
+    background-color: #0B87D9;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 10px;
+    border: azure;
+    text-align: center;
+}
+.nav-exercicios, .nav-desafios, .nav-todos{
+    text-decoration: none;
+    color: #00D1F0;
+    font-weight: bold;
+    padding: 5px 20px 5px 10px;
+    text-shadow: -1px 2px 3px #005e6d;
+}
+.nav-exercicios:active, .nav-desafios:active, .nav-todos:active{
+    color: #00D1F0;
+}
+.nav-exercicios:hover, .nav-desafios:hover, .nav-todos:hover{
+    color: #80eeff;
+    text-shadow: -2px 5px 4px #005e6d;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 140px;
+}
+.exercicios, .desafios{
+    background-color: #e4ecfc;
+    border-radius: 5px;
+    box-shadow: -10px 8px 8px #083ea3ab;
+    margin: 10px auto 10px auto;
+    width: 600px;
+    padding: 10px;
+}
+article > h2{
+    color: #00D1F0;
+    text-align: center;
+    text-shadow: -1px 1px 2px #005e6d;
+}
+article > p > a{
+    text-decoration: none;
+    padding: 10px;
+    color: red;
+}
+article > p > a:visited{
+    color: #008fa5;
+}
+article > p > a:active{
+    color: white;
+}
+article > p > a::before{
+    content: url(imagens/imagem-link.png);
+}
