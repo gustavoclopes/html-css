@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    position: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --corBranco: white;
+    --corPreto: black;
+}
+body{
+
+}
+header{
+    background-color: var(--corPreto);
+    height: 100px;
+    color: var(--corBranco);
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--corBranco);
+}
