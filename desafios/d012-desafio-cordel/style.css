@@ -8,6 +8,8 @@
     --cor01: white;
     --cor02: black;
     --cor03: rgba(0, 0, 0, 0.363);
+    --font-size01: 3.5vw;
+    --font-size02: 10vw;
     --fonte01: Verdana, Geneva, Tahoma, sans-serif;
     --fonte02: 'Passion One', cursive;
     --fonte03: 'Sriracha', cursive;
@@ -20,7 +22,6 @@
 }
 body{
     font-family: var(--fonte01);
-    font-size: 1em;
 }
 header{
     background-color: var(--cor02);
@@ -35,6 +36,7 @@ header a{
 }
 header h1{
     font-family: var(--fonte02);
+    font-size: var(--font-size02);
 }
 main{
     min-height: 100vh;
@@ -42,6 +44,8 @@ main{
 main section{
     padding: 60px 30px;
     font-family: var(--fonte03);
+    font-size: var(--font-size01);
+    line-height: 7vw;
 }
 .estrofe02{
     background-image: url(pacote-d012/imagens/background001.jpg);
@@ -54,7 +58,7 @@ main section{
 .estrofe02-fundo{
     padding: 5px;
     background-color: var(--cor03);
-    max-width: 210px;
+    width: 45vw;
 }
 .estrofe05{
     background-image: url(pacote-d012/imagens/background002.jpg);
@@ -67,12 +71,7 @@ main section{
 .estrofe05-fundo{
     padding: 5px;
     background-color: var(--cor03);
-    max-width: 210px;
-}
-@media(min-width: 600px){
-    body{
-        font-size: 5em;
-    }
+    width: 45vw;
 }
 footer{
     background-color: var(--cor02);
