@@ -1,25 +1,69 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --cor01: white;
+    --cor02: black;
+    --cor03: rgba(0, 0, 0, 0.363);
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
 *{
     margin: 0px;
     position: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-:root{
-    --corBranco: white;
-    --corPreto: black;
-}
 body{
-
+    font-family: var(--fonte01);
+    font-size: 16px;
 }
 header{
-    background-color: var(--corPreto);
-    height: 100px;
-    color: var(--corBranco);
+    background-color: var(--cor02);
+    min-height: 100px;
+    color: var(--cor01);
     text-align: center;
+    padding: 30px;
 }
 header a{
     text-decoration: none;
-    color: var(--corBranco);
+    color: var(--cor01);
+}
+header h1{
+    font-family: var(--fonte02);
+}
+main{
+    min-height: 100vh;
+}
+main section{
+    padding: 60px 30px;
+    font-family: var(--fonte03);
+}
+.estrofe02{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    color: var(--cor01);
+}
+.estrofe05{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+    color: var(--cor01);
+}
+
+
+footer{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    padding: 10px;
+    text-align: center;
 }
