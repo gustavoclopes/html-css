@@ -7,7 +7,7 @@
 :root{
     --cor01: white;
     --cor02: black;
-    --cor03: rgba(0, 0, 0, 0.363);
+    --cor03: #0000005d;
     --font-size01: 3.5vw;
     --font-size02: 10vw;
     --fonte01: Verdana, Geneva, Tahoma, sans-serif;
@@ -20,7 +20,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-body{
+html body{
     font-family: var(--fonte01);
 }
 header{
@@ -28,24 +28,31 @@ header{
     min-height: 100px;
     color: var(--cor01);
     text-align: center;
-    padding: 30px;
+    padding: 50px 20px;
+}
+header h1{
+    font-family: var(--fonte02);
+    font-size: var(--font-size02);
+    font-variant: small-caps; /*Toas maiúsculas porém com a inicial maior*/
+
+
+    /*text-transform: uppercase; (todas as letras em maiúscula)*/
 }
 header a{
     text-decoration: none;
     color: var(--cor01);
 }
-header h1{
-    font-family: var(--fonte02);
-    font-size: var(--font-size02);
+header a:hover, footer a:hover{
+    text-decoration: underline;
 }
 main{
     min-height: 100vh;
 }
 main section{
-    padding: 60px 30px;
+    padding: 10vh 30px;
     font-family: var(--fonte03);
     font-size: var(--font-size01);
-    line-height: 7vw;
+    line-height: 2em;
 }
 .estrofe02{
     background-image: url(pacote-d012/imagens/background001.jpg);
@@ -78,4 +85,9 @@ footer{
     color: var(--cor01);
     padding: 10px;
     text-align: center;
+}
+footer a{
+    color: var(--cor01);
+    text-decoration: none;
+    font-weight: bold;
 }
