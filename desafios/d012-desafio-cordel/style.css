@@ -61,6 +61,7 @@ main section{
     background-attachment: fixed;
     background-position: right center;
     color: var(--cor01);
+    box-shadow: inset 0 0 20px 15px rgba(0, 0, 0, 0.445);
 }
 .estrofe02-fundo, .estrofe05-fundo{
     padding: 5px;
