@@ -54,7 +54,7 @@ main section{
     font-size: var(--font-size01);
     line-height: 2em;
 }
-.estrofe02{
+.estrofe02, .estrofe05{
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,23 +62,14 @@ main section{
     background-position: right center;
     color: var(--cor01);
 }
-.estrofe02-fundo{
+.estrofe02-fundo, .estrofe05-fundo{
     padding: 5px;
     background-color: var(--cor03);
-    width: 45vw;
+    display: inline-block;
 }
 .estrofe05{
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     background-position: left center;
-    color: var(--cor01);
-}
-.estrofe05-fundo{
-    padding: 5px;
-    background-color: var(--cor03);
-    width: 45vw;
 }
 footer{
     background-color: var(--cor02);
